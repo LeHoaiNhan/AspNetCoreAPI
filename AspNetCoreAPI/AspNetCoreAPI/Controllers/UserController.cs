@@ -60,7 +60,7 @@ namespace AspNetCoreAPI.Controllers
 
                 return new UserModel
                 {
-                    Username = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.NameIdentifier)?.Value,
+                    Phone = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.MobilePhone)?.Value,
                     EmailAddress = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Email)?.Value,
                     GivenName = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.GivenName)?.Value,
                     Surname = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Surname)?.Value,

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -42,6 +43,14 @@ namespace AspNetCoreAPI
             services.AddMvc();
             services.AddControllers();
             services.AddRazorPages();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "MyCors",
+                                  policy =>
+                                  {
+                                      policy.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+                                  });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,7 +69,7 @@ namespace AspNetCoreAPI
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseCors("MyCors");
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
