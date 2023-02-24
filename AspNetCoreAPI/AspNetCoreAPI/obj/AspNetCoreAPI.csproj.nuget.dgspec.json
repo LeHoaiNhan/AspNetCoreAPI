@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github - LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {}
+    "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {}
   },
   "projects": {
-    "D:\\Github - LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {
+    "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github - LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
         "projectName": "AspNetCoreAPI",
-        "projectPath": "D:\\Github - LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
-        "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-        "outputPath": "D:\\Github - LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\obj\\",
+        "projectPath": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+        "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

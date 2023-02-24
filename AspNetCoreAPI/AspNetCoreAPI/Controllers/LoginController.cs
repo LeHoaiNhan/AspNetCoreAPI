@@ -27,40 +27,14 @@ namespace AspNetCoreAPI.Controllers
     public class LoginController : ControllerBase
     {
         private IConfiguration _config;
-        public IDbConnection _dbConnection => new SqlConnection(_config.GetConnectionString("sqlConnectionCompany"));
+        public IDbConnection _dbConnection => new SqlConnection(_config.GetConnectionString("sqlConnectionHome"));
         public static User user = new User();
         public static Error_Model errorModel = new Error_Model();
         public LoginController(IConfiguration config)
         {
             _config = config;
         }
-
-        
-
-        private string Generate(UserModel user)
-        {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.MobilePhone, user.Phone),
-                new Claim(ClaimTypes.Email, user.EmailAddress),
-                new Claim(ClaimTypes.GivenName, user.GivenName),
-                new Claim(ClaimTypes.Surname, user.Surname),
-                new Claim(ClaimTypes.Role, user.Role)
-            };
-
-            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
-              _config["Jwt:Audience"],
-              claims,
-              expires: DateTime.Now.AddMinutes(15),
-              signingCredentials: credentials);
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-
-        
+         
         //---------------------------------Register------------------------------------------
 
         public static string EncodePasswordToBase64(string password)
@@ -137,9 +111,33 @@ namespace AspNetCoreAPI.Controllers
                         Phone = userLogin.Phone,
                         Password= EncodePasswordToBase64(userLogin.Password)
                     }, commandType: System.Data.CommandType.StoredProcedure);
+                    if(result!=null)
+                    {
+                        var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+                        var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+                        var claims = new[]
+                        {
+                            new Claim(ClaimTypes.MobilePhone, result.Phone),
+                            new Claim(ClaimTypes.Role, result.Role)
+                        };
+
+                        var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+                          _config["Jwt:Audience"],
+                          claims,
+                          expires: DateTime.Now.AddSeconds(21)
+                          ,signingCredentials: credentials
+                          );
+                        result.Token = new JwtSecurityTokenHandler().WriteToken(token);
+                        result.Expires= DateTime.Now.AddSeconds(21);
+                    }
                     errorModel.status = 200;
                     errorModel.message = "OK";
-                    errorModel.data = result;
+                    errorModel.data = result;  
+
+                    
+
+
                     return errorModel;
                 }
             }
@@ -151,14 +149,7 @@ namespace AspNetCoreAPI.Controllers
                 return errorModel;
             }
 
-
-            //if (user != null)
-            //{
-            //    var token = Generate(user);
-            //    return token;
-            //}
-
-            //return "User not found";
+             
         }
 
 

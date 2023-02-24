@@ -22,17 +22,17 @@ namespace AspNetCoreAPI.Controllers
         {
             var currentUser = GetCurrentUser();
 
-            return Ok($"Hi {currentUser.GivenName}, you are an {currentUser.Role}");
+            return Ok($"Hi {currentUser.Name}, you are an {currentUser.Role}");
         }
 
 
-        [HttpGet("Sellers")]
-        [Authorize(Roles = "Seller")]
+        [HttpGet("1111")]
+        [Authorize(Roles = "User")]
         public IActionResult SellersEndpoint()
         {
             var currentUser = GetCurrentUser();
 
-            return Ok($"Hi {currentUser.GivenName}, you are a {currentUser.Role}");
+            return Ok($"Hi {currentUser.Name}, you are a {currentUser.Role}");
         }
 
         [HttpGet("AdminsAndSellers")]
@@ -41,7 +41,7 @@ namespace AspNetCoreAPI.Controllers
         {
             var currentUser = GetCurrentUser();
 
-            return Ok($"Hi {currentUser.GivenName}, you are an {currentUser.Role}");
+            return Ok($"Hi {currentUser.Name}, you are an {currentUser.Role}");
         }
 
         [HttpGet("Public")]
@@ -50,7 +50,7 @@ namespace AspNetCoreAPI.Controllers
             return "Hi, you're on public property";
         }
 
-        private UserModel GetCurrentUser()
+        private User GetCurrentUser()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;
 
@@ -58,12 +58,11 @@ namespace AspNetCoreAPI.Controllers
             {
                 var userClaims = identity.Claims;
 
-                return new UserModel
+                return new User
                 {
                     Phone = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.MobilePhone)?.Value,
-                    EmailAddress = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Email)?.Value,
-                    GivenName = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.GivenName)?.Value,
-                    Surname = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Surname)?.Value,
+                    Email = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Email)?.Value,
+                    Name = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Name)?.Value, 
                     Role = userClaims.FirstOrDefault(o => o.Type == ClaimTypes.Role)?.Value
                 };
             }
