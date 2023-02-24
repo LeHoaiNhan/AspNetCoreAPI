@@ -27,7 +27,7 @@ namespace AspNetCoreAPI.Controllers
     public class LoginController : ControllerBase
     {
         private IConfiguration _config;
-        public IDbConnection _dbConnection => new SqlConnection(_config.GetConnectionString("sqlConnectionHome"));
+        public IDbConnection _dbConnection => new SqlConnection(_config.GetConnectionString("sqlConnectionOnline"));
         public static User user = new User();
         public static Error_Model errorModel = new Error_Model();
         public LoginController(IConfiguration config)
