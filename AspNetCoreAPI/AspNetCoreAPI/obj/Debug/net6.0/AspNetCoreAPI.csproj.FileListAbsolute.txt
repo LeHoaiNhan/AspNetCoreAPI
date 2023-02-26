@@ -81,3 +81,15 @@ C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\
 C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.pdb
 C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.genruntimeconfig.cache
 C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\ref\AspNetCoreAPI.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Drive.v3.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\credentials.json

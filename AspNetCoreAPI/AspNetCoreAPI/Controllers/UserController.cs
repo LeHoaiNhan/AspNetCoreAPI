@@ -49,7 +49,7 @@ namespace AspNetCoreAPI.Controllers
         {
             return "Hi, you're on public property";
         }
-
+        [HttpGet]
         private User GetCurrentUser()
         {
             var identity = HttpContext.User.Identity as ClaimsIdentity;

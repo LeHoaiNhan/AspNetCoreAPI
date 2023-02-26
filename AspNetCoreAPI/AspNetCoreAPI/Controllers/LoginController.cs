@@ -34,9 +34,10 @@ namespace AspNetCoreAPI.Controllers
         {
             _config = config;
         }
-         
+
         //---------------------------------Register------------------------------------------
 
+        [HttpGet]
         public static string EncodePasswordToBase64(string password)
         {
             try {
@@ -45,6 +46,7 @@ namespace AspNetCoreAPI.Controllers
                 return encodedData;
             }catch (Exception ex) { throw new Exception("Error in base64Encode" + ex.Message); }
         }
+        [HttpGet]
         public string DecodeFrom64(string encodedData)
         {
             System.Text.UTF8Encoding encoder = new System.Text.UTF8Encoding();
@@ -152,6 +154,6 @@ namespace AspNetCoreAPI.Controllers
              
         }
 
-
+       
     }
 }
