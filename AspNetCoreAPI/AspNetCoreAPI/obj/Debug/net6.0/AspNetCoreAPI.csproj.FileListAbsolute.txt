@@ -1,95 +1,151 @@
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.AssemblyReference.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.GeneratedMSBuildEditorConfig.editorconfig
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.AssemblyInfoInputs.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.AssemblyInfo.cs
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.CoreCompileInputs.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.RazorAssemblyInfo.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.RazorAssemblyInfo.cs
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\appsettings.Development.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\appsettings.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.staticwebassets.runtime.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.exe
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.deps.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.runtimeconfig.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.pdb
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Dapper.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.AspNetCoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.AspNetCoreAPI.props
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AspNetCoreAPI.props
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AspNetCoreAPI.props
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets.build.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets.development.json
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\scopedcss\bundle\AspNetCoreAPI.styles.css
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.CopyComplete
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\refint\AspNetCoreAPI.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.pdb
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.genruntimeconfig.cache
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\ref\AspNetCoreAPI.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\Github - LeHoaiNhan\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\appsettings.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.staticwebassets.runtime.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.exe
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.deps.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.runtimeconfig.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\AspNetCoreAPI.pdb
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Dapper.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\System.Data.SqlClient.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.AssemblyReference.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.AssemblyInfoInputs.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.AssemblyInfo.cs
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.CoreCompileInputs.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.RazorAssemblyInfo.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.RazorAssemblyInfo.cs
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\scopedcss\bundle\AspNetCoreAPI.styles.css
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.csproj.CopyComplete
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\refint\AspNetCoreAPI.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.pdb
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.genruntimeconfig.cache
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\ref\AspNetCoreAPI.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\obj\Debug\net6.0\AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Auth.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Core.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Google.Apis.Drive.v3.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\k\Documents\GitHub\AspNetCoreAPI\AspNetCoreAPI\AspNetCoreAPI\bin\Debug\net6.0\credentials.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.AssemblyReference.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfoInputs.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfo.cs
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CoreCompileInputs.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cs
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.Development.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.staticwebassets.runtime.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.exe
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.deps.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.runtimeconfig.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.pdb
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Dapper.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.AspNetCoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.build.AspNetCoreAPI.props
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.AspNetCoreAPI.props
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.AspNetCoreAPI.props
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.pack.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.build.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.development.json
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/scopedcss/bundle/AspNetCoreAPI.styles.css
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CopyComplete
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/refint/AspNetCoreAPI.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.pdb
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.genruntimeconfig.cache
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/ref/AspNetCoreAPI.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.Data.SqlClient.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+D:/Github - LeHoaiNhan/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.staticwebassets.runtime.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.exe
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.deps.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.runtimeconfig.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.pdb
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Dapper.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.AssemblyReference.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfoInputs.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfo.cs
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CoreCompileInputs.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cs
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/scopedcss/bundle/AspNetCoreAPI.styles.css
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CopyComplete
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/refint/AspNetCoreAPI.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.pdb
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.genruntimeconfig.cache
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/ref/AspNetCoreAPI.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Auth.PlatformServices.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Auth.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Core.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Drive.v3.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/k/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/credentials.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.Development.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/appsettings.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/credentials.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.staticwebassets.runtime.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.deps.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.runtimeconfig.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/AspNetCoreAPI.pdb
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Dapper.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Auth.PlatformServices.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Auth.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Core.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Google.Apis.Drive.v3.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.Data.SqlClient.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.AssemblyReference.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfoInputs.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.AssemblyInfo.cs
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CoreCompileInputs.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.RazorAssemblyInfo.cs
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.AspNetCoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.build.AspNetCoreAPI.props
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.AspNetCoreAPI.props
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.AspNetCoreAPI.props
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.build.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/staticwebassets.development.json
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/scopedcss/bundle/AspNetCoreAPI.styles.css
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.csproj.CopyComplete
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/refint/AspNetCoreAPI.dll
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.pdb
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/AspNetCoreAPI.genruntimeconfig.cache
+/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/Debug/net6.0/ref/AspNetCoreAPI.dll

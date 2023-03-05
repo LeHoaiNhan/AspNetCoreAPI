@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {}
+    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj": {
+    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
+        "projectUniqueName": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI.csproj",
         "projectName": "AspNetCoreAPI",
-        "projectPath": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI.csproj",
-        "packagesPath": "C:\\Users\\k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k\\Documents\\GitHub\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\obj\\",
+        "projectPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI.csproj",
+        "packagesPath": "/Users/lehoainhan/.nuget/packages/",
+        "outputPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lehoainhan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
