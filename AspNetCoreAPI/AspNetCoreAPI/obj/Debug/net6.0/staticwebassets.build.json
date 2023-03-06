@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V8zFLUPeBN80EuSw/h9M3JWk9BMM56F8QW3U3VTS9YQ=",
+  "Hash": "QFWEzmjKS/Ey/ZrPmJTtByXEt42XcZrtfVps2CP2Mlw=",
   "Source": "AspNetCoreAPI",
   "BasePath": "_content/AspNetCoreAPI",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "AspNetCoreAPI/wwwroot",
+      "Name": "AspNetCoreAPI\\wwwroot",
       "Source": "AspNetCoreAPI",
-      "ContentRoot": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/",
+      "ContentRoot": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\",
       "BasePath": "_content/AspNetCoreAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/css/site.css",
+      "Identity": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\css\\site.css",
       "SourceId": "AspNetCoreAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/",
+      "ContentRoot": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\",
       "BasePath": "_content/AspNetCoreAPI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/favicon.ico",
+      "Identity": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\favicon.ico",
       "SourceId": "AspNetCoreAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/",
+      "ContentRoot": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\",
       "BasePath": "_content/AspNetCoreAPI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/js/site.js",
+      "Identity": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\js\\site.js",
       "SourceId": "AspNetCoreAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/AspNetCoreAPI/AspNetCoreAPI/wwwroot/",
+      "ContentRoot": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\AspNetCoreAPI\\AspNetCoreAPI\\wwwroot\\",
       "BasePath": "_content/AspNetCoreAPI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }
