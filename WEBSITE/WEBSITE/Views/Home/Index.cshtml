@@ -1,0 +1,741 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+ 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--CSS dùng chung-->
+    <style>
+        .footer_menu {
+            margin: 5px;
+            background-color: rgba(251,251,253,.5);
+            -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(8px);
+            display: flex;
+            text-align: center;
+            border-radius: 16px;
+            box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.514);
+        } 
+
+        * {
+            font-family: 'SF Pro Display', sans-serif;
+        }
+
+        h1 {
+            font-size: 16px;
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 15px;
+            margin: 0px;
+        }
+
+        h3 {
+            font-size: 14px;
+            margin: 0px;
+        }
+
+        h4 {
+            font-size: 13px;
+            margin: 0px;
+        }
+
+        h5 {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        h6 {
+            font-size: 11px;
+            margin: 0px;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        a {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        b {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        hr {
+            margin: 0px;
+        }
+    </style>
+    <!-- Demo styles -->
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .swiper-custome-1 {
+            height: 100px;
+        }
+    </style>
+    <style>
+        body {
+            max-width: 500px !important;
+            margin-bottom: 80px;
+            width: 100%;
+            /* Resize the background image to cover the entire container */
+        }
+
+        .bg_backend {
+            height: 100%;
+            width: 100%;
+            /*background-color: bisque;*/
+            background-image: url("Img/bg-nail-care-salon.jpg");
+            background-size: 100%;
+            background-position-y: -22px;
+            background-repeat: no-repeat; /* Do not repeat the image */
+            position: fixed;
+        }
+
+        .bg_tag {
+            position: fixed;
+            height: 160px;
+            width: 100%;
+            margin-top: 1.6em;
+        }
+
+        .tag {
+            border: 1.5px solid;
+            background-image: url("Img/bg.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat; /* Do not repeat the image */
+            -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(8px);
+            box-shadow: 7px 7px 16px rgb(246 255 0 / 43%);
+            height: 100%;
+            width: 350px;
+            margin-left: auto;
+            margin-right: 15%;
+            border-radius: 1em;
+        }
+
+        .main {
+            border-radius: 0.5em;
+            box-shadow: 3px 4px 14px 0px rgb(69 69 69);
+            position: absolute;
+            height: 1000px;
+            width: 100%;
+            /*  background-color: rgb(255, 179, 179);*/
+            margin-top: 50%;
+        }
+
+        .main_chilren {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .tb_tag {
+            width: 100%;
+            height: 100%;
+        }
+
+        /*footerß*/
+        .footer_menu {
+            margin: 10px;
+            background-color: rgba(251, 251, 253, .5);
+            backdrop-filter: blur(8px);
+            border-radius: 16px;
+            box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.514);
+        }
+
+        .icon_footer {
+            margin: auto;
+            padding: 13px;
+        }
+
+        /*chung*/
+
+        /*slide - 1*/
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .slide-1 {
+            background-color: red;
+            height: 100%;
+            width: 100%;
+        }
+
+        .carousel-indicators {
+            margin-bottom: 0;
+        }
+
+        .carousel-item {
+            height: 100%;
+        }
+    </style>
+    <style>
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+    </style>
+    <style>
+
+        #store {
+            width: 100%;
+            height: 100px;
+            background-color: yellowgreen;
+        }
+
+        #location {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+        }
+
+        #clipboard {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(92, 133, 110);
+        }
+
+        #location {
+            width: 100%;
+        }
+
+        #menu {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(230, 230, 230, 0.3);
+        }
+    </style>
+    <style>
+        .store-Swiper-1 {
+            height: 300px;
+        }
+
+        .autoplay-progress {
+            position: absolute;
+            right: 16px;
+            bottom: 16px;
+            z-index: 10;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--swiper-theme-color);
+        }
+
+            .autoplay-progress svg {
+                --progress: 0;
+                position: absolute;
+                left: 0;
+                top: 0px;
+                z-index: 10;
+                width: 100%;
+                height: 100%;
+                stroke-width: 4px;
+                stroke: var(--swiper-theme-color);
+                fill: none;
+                stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+                stroke-dasharray: 125.6;
+                transform: rotate(-90deg);
+            }
+    </style> 
+ 
+    <div id="home">
+        <div class="bg_backend">
+            <div class="bg_tag">
+                <div class="tag">
+                    <div style="width: 100%; height: 100%;  border-radius: 1em ;">
+                        <div style="width: 100%; height: 50%;display: flex;">
+                            <div style="width: 100%; height: 100%;margin: 1em;">
+                                <div style="width: 100%; height: 20px;color: black;font-weight: bold;">Lê Hoài Nhân</div>
+                                <div style="width: 100%; height: 20px;color: black ">300.000 $</div>
+                            </div>
+                            <div style="width: 100%; height: 20px;">
+                                <div style="width: 60px; height: 20px;margin-left: auto;margin-right: 20px;background-color: gold;text-align: center; border-radius:0px 0px 5px 5px;">
+                                    GOLD
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; height: 50%;display: flex;">
+                            <div style="width: 100%; border-radius: 0.2em;margin: 0.8em; background-color: rgba(90, 90, 90, 0.906);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main" id="name">
+            <div style="width: 100%;height: 10px;padding: 2px;text-align: center;background-color: white;">
+                <div style="height: 100%;width: 55px;background-color: rgb(213, 213, 213);margin: auto;border-radius: 1em;"></div>
+            </div>
+            <div>
+                <!--img-->
+                <img src="Img/beauty-salon.jpg" style="width: 100%;">
+            </div>
+            <div class="main_chilren">
+                <div style="height: 200px;">
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" style="height: 100%;">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <div class="text-start" style="height: 100%;background-image: url('Img/sl1.jpg');background-size: 100%;">
+                                    <h1>Title 3</h1>
+                                    <p>day la cau lenh khuyen mai</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="text" style="height: 100%;background-image: url('Img/sl2.jpg');background-size: 100%;">
+                                    <h1>Title 3</h1>
+                                    <p>day la cau lenh khuyen mai</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item active">
+                                <div class="text-end" style="height: 100%;background-image: url('Img/sl3.jpg');background-size: 100%;">
+                                    <h1>Title 3</h1>
+                                    <p>day la cau lenh khuyen mai</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">السابق</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">التالي</span>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                            <div class="swiper-slide"><div class="swiper-custome-1">Slide</div></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="store">
+
+    
+    </div>
+    <div id="clipboard">
+        <div style="margin-bottom:10px">
+            <div style="height: 20px;width: 100%;background-color: white;">
+                <p> [ Back page ]</p>
+            </div>
+            <div class="store-slide-1">
+                <div class="swiper store-Swiper-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-color: rgb(34, 68, 97);">Slide 1</div>
+                        <div class="swiper-slide" style="background-color: rgb(97, 71, 34);">Slide 2</div>
+                        <div class="swiper-slide" style="background-color: rgb(97, 34, 78);">Slide 3</div>
+                        <div class="swiper-slide" style="background-color: rgb(89, 97, 34);">Slide 4</div>
+                        <div class="swiper-slide" style="background-color: rgb(42, 34, 97);">Slide 5</div>
+                        <div class="swiper-slide" style="background-color: rgb(34, 97, 35);">Slide 6</div>
+                    </div>
+                    <div class="swiper-button-next-1"></div>
+                    <div class="swiper-button-prev-1"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="autoplay-progress">
+                        <svg viewBox="0 0 48 48">
+                            <circle cx="24" cy="24" r="20"></circle>
+                        </svg>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="background-color: brown;">
+                <div style="height: 300px;padding-top: 20px;">
+                    <div style="height: 100%;background-color: rgb(230, 220, 84);display: flex;border-radius: 1em;">
+                        <div style="width: 100%;height: 200px;background-color: rgba(255, 255, 255, 0.205);margin-top: auto;margin-bottom: 0px;border-radius: 1em;">
+                            <div style="padding: 12px;">
+                                <h1>Đây là một Title h1</h1>
+                                <a style="color: red;">Thuộc tính - nhấn mạnh</a>
+                                <p style="text-indent: 30px;">Đây là môt đoạn của bài văn để đi vào chi tiết, hình nền mờ để thấy được hình ảnh phía bên dưới, dữ liệu sẽ được lấy từ database. chúng ta phải ghí thêm vài chử để đủ chổ, sau đó đếm ký tự để cắt nó ra sau khi đếm được bao nhiêu chử số rồi, ghi thêm cho dài ra một tí nữa đẩy sát luôn .. <a href="#">Xem thêm</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="height: 300px;padding-top: 20px;">
+                    <div style="height: 100%;background-color: rgb(230, 220, 84);display: flex;border-radius: 1em;">
+                        <div style="width: 100%;height: 200px;background-color: rgba(255, 255, 255, 0.397);margin-top: auto;margin-bottom: 0px;border-radius: 1em;">
+                            <div style="padding: 12px;">
+                                <h1>Đây là một Title h1</h1>
+                                <a style="color: red;">Thuộc tính - nhấn mạnh</a>
+                                <p style="text-indent: 30px;">Đây là môt đoạn của bài văn để đi vào chi tiết, hình nền mờ để thấy được hình ảnh phía bên dưới, dữ liệu sẽ được lấy từ database. chúng ta phải ghí thêm vài chử để đủ chổ, sau đó đếm ký tự để cắt nó ra sau khi đếm được bao nhiêu chử số rồi, ghi thêm cho dài ra một tí nữa đẩy sát luôn .. <a href="#">Xem thêm</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="height: 300px;padding-top: 20px;">
+                    <div style="height: 100%;background-color: rgb(230, 220, 84);display: flex;border-radius: 1em;">
+                        <div style="width: 100%;height: 200px;background-color: rgba(255, 255, 255, 0.397);margin-top: auto;margin-bottom: 0px;border-radius: 1em;">
+                            <div style="padding: 12px;">
+                                <h1>Đây là một Title h1</h1>
+                                <a style="color: red;">Thuộc tính - nhấn mạnh</a>
+                                <p style="text-indent: 30px;">Đây là môt đoạn của bài văn để đi vào chi tiết, hình nền mờ để thấy được hình ảnh phía bên dưới, dữ liệu sẽ được lấy từ database. chúng ta phải ghí thêm vài chử để đủ chổ, sau đó đếm ký tự để cắt nó ra sau khi đếm được bao nhiêu chử số rồi, ghi thêm cho dài ra một tí nữa đẩy sát luôn .. <a href="#">Xem thêm</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 25px;width: 100%;">
+            <div style="text-align: center;">
+                <p>1 - 2 - 3 - 4 - 5 - 6</p>
+            </div>
+        </div>
+        <div style="height: 1000px;"></div>
+    </div>
+    <div id="location">
+        <div class="store-slide-1">
+            <div class="swiper store-Swiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/Img/location/l1.jpg"></div>
+                    <div class="swiper-slide"><img src="/Img/location/l2.jpg"></div>
+                    <div class="swiper-slide"><img src="/Img/location/l3.jpg"></div>
+                    <div class="swiper-slide"><img src="/Img/location/l4.jpg"></div>
+                    <div class="swiper-slide"><img src="/Img/location/l5.jpg"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div style="border-bottom: 0.1px solid gray; padding: 5px 0px;">
+                <div class="store_intro">
+                    <div style="font-size: 10px;font-weight: bold;">NAME STORE INTRO</div>
+                    <h1 style="margin:0px;line-height:1">Store Sadec - HCM City</h1>
+                    <h2 style="font-size: 10px;margin:0px;padding: 0px;">Giờ mở cửa: 07:00 - 20:00</h2>
+                </div>
+            </div>
+            <div class="store_address_detail">
+                <div style="display: flex; padding:5px 0px">
+                    <p>
+                        Số 6, Tôn Win Win, phường Tân Thuận, TP.HCM,
+                        kế bênh coopmart quẹp tay phải vào 60m asfdsf sda fasd
+                    </p>
+                </div>
+            </div>
+
+            <hr />
+            <div style="height: 300px;padding-top: 10px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d825.085973679605!2d105.73229748744322!3d10.358461478138167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a7d4d32028e43%3A0x6f8ca37eab290ebf!2zQ-G7rWEgaMOgbmcgLSB04bqhcCBow7NhIC0gdGjhursgY8OgbyDEkWnhu4duIHRob-G6oWk!5e0!3m2!1sen!2s!4v1676861022096!5m2!1sen!2s" width="100%" height="100%" style="border-radius:21px;border: 0.5px solid gray;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="store_address_detail">
+                <div style="display: flex;width: 100%; padding: 1em;">
+                    <h1 style="margin: auto 0px;">Chia sẻ : </h1>
+                    <i class="fa-brands fa-facebook fa-2x" style="margin:0px 10px;color: rgb(12, 12, 180); border:2px solid;border-radius: 5px;"></i>
+                    <i class="fa-brands fa-youtube fa-2x" style="margin:0px 10px;color: red;border:2px solid;border-radius: 8px;"></i>
+                    <i class="fa-brands fa-twitter fa-2x" style="margin:0px 10px;color: rgb(0, 208, 255);border:2px solid;border-radius: 5px;"></i>
+                    <i class="fa fa-link fa-2x" style="margin:0px 10px;color: gray;border:2px solid;border-radius: 5px;"></i>
+                    <hr />
+                </div>
+                <hr />
+                <div style="display: grid;">
+                    <span style="margin:0px 10px"><i style="margin-right: 5px;" class="fa fa-car"></i>Có chỗ đỗ xe hơi</span>
+                    <span style="margin:0px 10px"><i style="margin-right: 5px;" class="fa-regular fa-face-smile"></i>Thân thiện với gia đình</span>
+                    <span style="margin:0px 10px"><i style="margin-right: 5px;" class="fa fa-store"></i>Phục vụ tại chỗ</span>
+                    <span style="margin:0px 10px"><i style="margin-right: 5px;" class="fa fa-bag-shopping"></i>Mua mang đi</span>
+                </div>
+
+
+
+
+
+                <div style="height: 100px;"></div>
+            </div>
+        </div>
+    </div>
+    <div id="menu">
+        <div class="container">
+            <div style="height: 70px;border-bottom:0.5px solid rgba(128, 128, 128, 0.26) ;">
+                <div style="display: flex;padding: 10px;" onclick="user_click()">
+                    <div style="width: 50px;height: 50px;background-color: antiquewhite;border-radius: 2em;"></div>
+                    <div style="width: 100%;height: 40px;margin-top: auto;margin-bottom: 0px;" class="container">
+                        <div style="width: 100%;height: 50%;"><b>Lê Hoài Nhân</b></div>
+                        <div style="width: 100%;height: 50%;"><p>Xem trang cá nhân của bạn</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div style="display: flex;padding: 5px;">
+                <i class="fa fa-list"></i>
+                <h1 style="background-color: rgb(231, 238, 213); margin-left: 5px;">Danh mục</h1>
+            </div>
+            <div style="margin:5px 0px;" class="container">
+                <div class="row">
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa-solid fa-newspaper"></i>
+                            <h2>Bảng feed</h2>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa fa-user-group"></i>
+                            <h2>Bạn bè</h2>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa-regular fa-floppy-disk"></i>
+                            <h2>Đã lưu</h2>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h2>Sự kiện</h2>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa-solid fa-ticket"></i>
+                            <h2>Ưu đãi</h2>
+                        </div>
+                    </div>
+                    <div class="col-6" style="height: 80px;padding: 5px;">
+                        <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <h2>Live stream sản phẩm</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container">
+            <div style="display: flex;padding: 5px;">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h1 style="background-color: rgb(231, 238, 213);width: 100%;" onclick="collapse_onlick('menu-more-collapse')">Mở rộng</h1>
+            </div>
+            <div id="menu-more-collapse" style="margin: 10px 0px;">
+                <div style="margin:5px 0px;" class="container">
+                    <div class="row">
+                        <div class="col-6" style="height: 80px;padding: 5px;">
+                            <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                                <i class="fa-solid fa-ticket"></i>
+                                <h2>Ưu đãi</h2>
+                            </div>
+                        </div>
+                        <div class="col-6" style="height: 80px;padding: 5px;">
+                            <div style="height: 100%;background-color: white;padding: 0.5em;border-radius:5px;">
+                                <i class="fa-solid fa-earth-americas"></i>
+                                <h2>Live stream sản phẩm</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container">
+            <div style="display: flex;padding: 5px;">
+                <i class="fa-solid fa-circle-info"></i>
+                <h1 style="background-color: rgb(231, 238, 213);width: 100%;" onclick="collapse_onlick('menu-support-collapse')">Trợ giúp và hỗ trợ</h1>
+            </div>
+            <div id="menu-support-collapse" style="margin: 10px 0px; margin-left: 5px;">
+                <div style="padding: 10px;border: 0.5px solid rgba(128, 128, 128, 0.329);border-radius: 8px;margin: 5px 0px;">
+                    <div style="display: flex;border-radius: 5px;">
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <h2>Báo cáo sự cố</h2>
+                    </div>
+                </div>
+                <div style="padding: 10px;border: 0.5px solid rgba(128, 128, 128, 0.329);border-radius: 8px;margin: 5px 0px;">
+                    <div style="display: flex;border-radius: 5px;">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h2>Bảo mật</h2>
+                    </div>
+                </div>
+                <div style="padding: 10px;border: 0.5px solid rgba(128, 128, 128, 0.329);border-radius: 8px;margin: 5px 0px;">
+                    <div style="display: flex;border-radius: 5px;">
+                        <i class="fa-solid fa-book"></i>
+                        <h2>Điều khoản & chính sách</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="user" style="position: relative;">
+        <div style="position: absolute;height: 160px;width: 100%;margin-top: 80px;">
+            <div style="height: 100%;width: 160px;margin: 0px auto; border-radius: 50%;border: 3px solid pink;">
+                <img src="Img/beauty-salon.jpg" style="width: 100%;height: 100%; vertical-align: middle; border-radius: 50%;">
+            </div>
+            <div style="width: 100%;padding: 16px;"><h1 style="text-align: center;font-weight: bold;font-size: 30px;">Vy Lê</h1></div>
+            <hr />
+            <div style="margin: auto;display: flex;">
+                <div class="icon_footer">
+                    <h1>Bài viết</h1>
+                </div>
+                <div class="icon_footer">
+                    <h1>Giới thiệu</h1>
+                </div>
+                <div class="icon_footer">
+                    <h1>Bạn bè</h1>
+                </div>
+                <div class="icon_footer">
+                    <h1>Ảnh</h1>
+                </div>
+            </div>
+        </div>
+        <div style="height: 150px;">
+            <img src="Img/bg-nail-care-salon.jpg" style="width: 100%;height: 100%;">
+        </div>
+    </div>
+     
+<footer class="fixed-bottom footer">
+    <div class="footer_menu">
+        <div style="margin: auto;display: flex;">
+            <div class="icon_footer">
+                <i class="fa fa-house fa-2x" onclick="footer_menu_click('home')"></i>
+            </div>
+            <div class="icon_footer">
+                <i class="fa-solid fa-store fa-2x" onclick="footer_menu_click('store')"></i>
+            </div>
+            <div class="icon_footer">
+                <i class="fa-solid fa-clipboard-list fa-2x" onclick="footer_menu_click('clipboard')"></i>
+            </div>
+            <div class="icon_footer">
+                <i class="fa-solid fa-location-dot fa-2x" onclick="footer_menu_click('location')"></i>
+            </div>
+            <div class="icon_footer">
+                <i class="fa-solid fa-bars fa-2x" onclick="footer_menu_click('menu')"></i>
+            </div>
+        </div>
+    </div>
+</footer>  
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+    const progressCircle = document.querySelector(".autoplay-progress svg");
+    const progressContent = document.querySelector(".autoplay-progress span");
+    var swiper = new Swiper(".store-Swiper-1", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next-1",
+        prevEl: ".swiper-button-prev-1"
+      },
+      on: {
+        autoplayTimeLeft(s, time, progress) {
+          progressCircle.style.setProperty("--progress", 1 - progress);
+          progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+      }
+    });
+
+    $(document).ready(function () {
+        footer_menu_click("user");
+    })
+    function footer_menu_click(name) {
+        document.getElementById("home").style.display = 'none';
+        document.getElementById("store").style.display = 'none';
+        document.getElementById("clipboard").style.display = 'none';
+        document.getElementById("location").style.display = 'none';
+        document.getElementById("menu").style.display = 'none';
+        document.getElementById("user").style.display = 'none';
+        document.getElementById(name).style.display = 'block';
+
+    }
+    function user_click() {
+        footer_menu_click("user");
+    }
+    function collapse_onlick(id) {
+        if(document.getElementById(id).style.display=="")
+        {
+            document.getElementById(id).style.display="none"
+        }else{
+            document.getElementById(id).style.display=""
+        }
+
+}
+
+    </script>
