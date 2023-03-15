@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMzoHEQvG1eBFthY9WXOj+7UkIs8Dc6rdFMqCCI0PNbKCHQXKscreDUPcbwCUy2JPnm7USgiLQ6oIoWaH9J0+Q==",
+  "dgSpecHash": "NCwI+04DetRScXORoON8MT60FKypK2yDMbJLTR5SV9A+xLO7skBwwLTi1/dULYQIYTiyJOVYtNriZptZ7T4bRw==",
   "success": true,
   "projectFilePath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\7.0.4\\microsoft.aspnetcore.authentication.facebook.7.0.4.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.4\\microsoft.aspnetcore.authentication.google.7.0.4.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

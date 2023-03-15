@@ -1,0 +1,7 @@
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\WEBSITE.exe
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\appsettings.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\WEBSITE.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\WEBSITE.deps.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\WEBSITE.runtimeconfig.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net6.0\PubTmp\Out\WEBSITE.pdb
