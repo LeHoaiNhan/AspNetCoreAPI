@@ -21,6 +21,9 @@ public class HomeController : Controller
                  
     public IActionResult Index()
     {
+        CookieOptions options = new CookieOptions();
+        options.Expires = DateTime.Now.AddDays(1);
+        Response.Cookies.Append("name", "Nhanlh6", options);
         return View();
     }
     #region   --Login GOOGLE--        
@@ -31,13 +34,12 @@ public class HomeController : Controller
             RedirectUri = Url.Action("loginResponse", "Home")
         });
     }
-    public async Task<IActionResult> loginResponse()
+    public async Task<IActionResult> loginResponse()  
     {
         var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
         {
-            claim.Issuer,
-            claim.OriginalIssuer,
+            claim.Issuer,            
             claim.Type,
             claim.Value
         });

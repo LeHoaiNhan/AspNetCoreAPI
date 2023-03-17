@@ -103,7 +103,7 @@
         @if (Context.User.Identity.IsAuthenticated)
         {
             <li>
-                <a>Hello @User.Identity.Name</a>
+                <a>Hello @User.Identity.Name</a>         
             </li>
             <li>
                 <a asp-controller="Home" asp-action="Logout">Logout</a>
@@ -111,8 +111,10 @@
         }
         </ul>
 
-    
+            <button onclick="login('google')">Google</button>       
     </div>
+
+
     <div id="clipboard">
         <div style="margin-bottom:10px">
             <div style="height: 20px;width: 100%;background-color: white;">

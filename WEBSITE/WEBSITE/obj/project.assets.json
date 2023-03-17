@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "IdentityModel/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Facebook/7.0.4": {
         "type": "package",
         "compile": {
@@ -124,6 +137,33 @@
     }
   },
   "libraries": {
+    "IdentityModel/6.0.0": {
+      "sha512": "eVHCR7a6m/dm5RFcBzE3qs/Jg5j9R5Rjpu8aTOv9e4AFvaQtBXb5ah7kmwU+YwA0ufRwz4wf1hnIvsD2hSnI4g==",
+      "type": "package",
+      "path": "identitymodel/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "identitymodel.6.0.0.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/net5.0/IdentityModel.dll",
+        "lib/net5.0/IdentityModel.pdb",
+        "lib/net5.0/IdentityModel.xml",
+        "lib/net6.0/IdentityModel.dll",
+        "lib/net6.0/IdentityModel.pdb",
+        "lib/net6.0/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Facebook/7.0.4": {
       "sha512": "lvB+Gz9qH9INigZDy2chNw4ELHA3Fed4nyAgffq6gks4OEoxY/aB/DBec6+bIAuGn6zYZ8Ju7o0MqN+OSbBf5w==",
       "type": "package",
@@ -495,6 +535,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "IdentityModel >= 6.0.0",
       "Microsoft.AspNetCore.Authentication.Facebook >= 7.0.4",
       "Microsoft.AspNetCore.Authentication.Google >= 7.0.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -539,6 +580,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.Facebook": {
             "target": "Package",
             "version": "[7.0.4, )"
