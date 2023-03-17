@@ -98,7 +98,7 @@
         </div>
     </div>
     <div id="store">
-    <p><a asp-area="" asp-controller="Home" asp-action="LoginGoogle">Login</a></p>
+    <p><button asp-area="" asp-controller="Home" asp-action="Login" >Login</button></p>
     <ul>
         @if (Context.User.Identity.IsAuthenticated)
         {

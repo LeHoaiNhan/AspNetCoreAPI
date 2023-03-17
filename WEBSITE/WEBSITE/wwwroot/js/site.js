@@ -59,7 +59,8 @@ function collapse_onlick(id) {
 }
 function login(input) {
     $.ajax({
-        type: "GET",
+        type: "POST",
+        crossDomain: true,
         contentType: "application/json; charset=utf-8",
         url: "/home/login",
         data: { AppName: input },

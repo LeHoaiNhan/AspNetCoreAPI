@@ -19,8 +19,18 @@ public class HomeController : Controller
         _logger = logger;
     }
                  
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
+        var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        if(result.Succeeded==true)
+        {
+            var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
+            {
+                claim.Issuer,
+                claim.Type,
+                claim.Value
+            });
+        }
         CookieOptions options = new CookieOptions();
         options.Expires = DateTime.Now.AddDays(1);
         Response.Cookies.Append("name", "Nhanlh6", options);
@@ -33,18 +43,7 @@ public class HomeController : Controller
         {
             RedirectUri = Url.Action("loginResponse", "Home")
         });
-    }
-    public async Task<IActionResult> loginResponse()  
-    {
-        var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
-        {
-            claim.Issuer,            
-            claim.Type,
-            claim.Value
-        });
-        return Json(claims);
-    }
+    }            
     [Authorize]
     public IActionResult Logout()
     {
@@ -53,23 +52,31 @@ public class HomeController : Controller
     }
     #endregion
     public IActionResult login(string AppName)
-    {                 
-            var pro = new AuthenticationProperties()
-            {
-                RedirectUri = Url.Action("loginResponse", "Home")
-            };
+    {
+        try { 
+        var pro = new AuthenticationProperties()
+        {
+            RedirectUri = Url.Action("Index", "Home")
+        };
             if (AppName == "facebook")
             {
                 return Challenge(pro, FacebookDefaults.AuthenticationScheme);
-            }   else
+            }
+            else
             if (AppName == "google")
-            {      
+            {
                 return Challenge(pro, GoogleDefaults.AuthenticationScheme);
             }
             else
             {
                 return BadRequest(500);
             }
-    }                             
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex);
+        }
+     }
+
 }
 

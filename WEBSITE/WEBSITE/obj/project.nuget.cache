@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3UO98Pa5wjCbw9mYsxGNG8kkJo7NL4JRbs4KPcwkki0slYjbpupKjKHTYqVI6L+wfKhC+NeOK+I6mjYxO6k2zA==",
+  "dgSpecHash": "0DDetetq6NIaFzyukiQB5IglhwHp67lkTRk4w2iDj4rTjCNQri6oIirkZ0mH2fK04dJxR66bL3T250J6iDExPA==",
   "success": true,
-  "projectFilePath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
+  "projectFilePath": "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nhanlh6\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\7.0.4\\microsoft.aspnetcore.authentication.facebook.7.0.4.nupkg.sha512",

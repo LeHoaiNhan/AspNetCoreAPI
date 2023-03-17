@@ -547,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
+      "projectUniqueName": "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
       "projectName": "WEBSITE",
-      "projectPath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
+      "projectPath": "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
       "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-      "outputPath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\obj\\",
+      "outputPath": "O:\\WEBSITE\\WEBSITE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
