@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj": {}
+    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj": {}
   },
   "projects": {
-    "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj": {
+    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
+        "projectUniqueName": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj",
         "projectName": "WEBSITE",
-        "projectPath": "O:\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
-        "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-        "outputPath": "O:\\WEBSITE\\WEBSITE\\obj\\",
+        "projectPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj",
+        "packagesPath": "/Users/lehoainhan/.nuget/packages/",
+        "outputPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/lehoainhan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -76,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

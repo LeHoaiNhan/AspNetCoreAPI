@@ -19,10 +19,18 @@ public class HomeController : Controller
         _logger = logger;
     }
                  
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
+    {
+        
+        CookieOptions options = new CookieOptions();
+        options.Expires = DateTime.Now.AddDays(1);
+        Response.Cookies.Append("name", "Nhanlh6", options);
+        return View();
+    }
+    public async Task<IActionResult> User()
     {
         var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        if(result.Succeeded==true)
+        if (result.Succeeded == true)
         {
             var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
             {
@@ -31,9 +39,6 @@ public class HomeController : Controller
                 claim.Value
             });
         }
-        CookieOptions options = new CookieOptions();
-        options.Expires = DateTime.Now.AddDays(1);
-        Response.Cookies.Append("name", "Nhanlh6", options);
         return View();
     }
     #region   --Login GOOGLE--        

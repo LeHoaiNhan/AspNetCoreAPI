@@ -4,11 +4,109 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - WEBSITE</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            max-width: 400px !important;
+            margin-bottom: 80px;
+        }
+        /*footerß*/
+        .footer_menu { 
+            margin: 5px;
+            background-color: rgba(251,251,253,.5);
+            -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(8px);
+            display: flex;
+            text-align: center;
+            border-radius: 16px;
+            box-shadow: 17px 20px 40px rgba(0, 0, 0, 0.514);
+        }
+
+        .icon_footer {
+            margin: auto;
+            padding: 13px;
+        }
+
+        * {
+            font-family: 'SF Pro Display', sans-serif;
+        }
+
+        h1 {
+            font-size: 16px;
+            margin: 0px;
+        }
+
+        h2 {
+            font-size: 15px;
+            margin: 0px;
+        }
+
+        h3 {
+            font-size: 14px;
+            margin: 0px;
+        }
+
+        h4 {
+            font-size: 13px;
+            margin: 0px;
+        }
+
+        h5 {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        h6 {
+            font-size: 11px;
+            margin: 0px;
+        }
+
+        p {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        a {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        b {
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        hr {
+            margin: 0px;
+        }
+    </style>
 </head>
-<body> 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script> 
+<body>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     @RenderBody()
+
+    <footer class="fixed-bottom footer">
+        <div class="footer_menu">
+            <div style="margin: auto;display: flex;">
+                <div class="icon_footer">
+                    <i class="fa fa-house fa-2x" onclick="footer_menu_click('home')"></i>
+                </div>
+                <div class="icon_footer">
+                    <i class="fa-solid fa-store fa-2x" onclick="footer_menu_click('store')"></i>
+                </div>
+                <div class="icon_footer">
+                    <i class="fa-solid fa-clipboard-list fa-2x" onclick="footer_menu_click('clipboard')"></i>
+                </div>
+                <div class="icon_footer">
+                    <i class="fa-solid fa-location-dot fa-2x" onclick="footer_menu_click('location')"></i>
+                </div>
+                <div class="icon_footer">
+                    <i class="fa-solid fa-bars fa-2x" onclick="footer_menu_click('menu')"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
           integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="

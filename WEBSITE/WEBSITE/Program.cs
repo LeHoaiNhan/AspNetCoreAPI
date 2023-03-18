@@ -72,8 +72,18 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseAuthentication();
-app.UseAuthorization();                 
-app.MapControllerRoute( name: "default",pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseAuthorization();
+app.UseMvc(routes =>
+{
+    routes.MapRoute(
+        name: "document",
+        template: "Document/{id?}",
+        defaults: new { controller = "Home", action = "{action}" });
+
+    routes.MapRoute(
+        name: "default",
+        template: "{controller=Home}/{action=Index}"); 
+});
 app.UseSwagger();
 app.UseSwaggerUI();    
 app.Run();
