@@ -7,18 +7,14 @@ using Microsoft.AspNetCore.Authentication.Facebook;
 using System.Web;
 
 namespace WEBSITE.Controllers;
-
+                           
 public class HomeController : Controller
-{
-    private readonly ILogger<HomeController> _logger;
+{                         
+   //  public HomeController(){}
 
-
-                    
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-                 
+    [HttpGet]
+    [Route("")]
+    [Route("trang-chu")]    
     public IActionResult Index()
     {
         
@@ -27,6 +23,32 @@ public class HomeController : Controller
         Response.Cookies.Append("name", "Nhanlh6", options);
         return View();
     }
+    [HttpGet]
+    [Route("vi-tri-cua-hang")]
+    public ActionResult Location()
+    {
+        return View();
+    }
+    [HttpGet]
+    [Route("dat-lich")]
+    public ActionResult Clipboard()
+    {
+        return View();
+    }
+    [HttpGet]
+    [Route("thong-tin-cua-hang")]
+    public ActionResult Store()
+    {
+        return View();
+    }
+    [HttpGet]
+    [Route("danh-sach")]
+    public ActionResult Menu()
+    {
+        return View();
+    }
+    [HttpGet]
+    [Route("nguoi-dung")]
     public async Task<IActionResult> User()
     {
         var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
@@ -41,47 +63,34 @@ public class HomeController : Controller
         }
         return View();
     }
-    #region   --Login GOOGLE--        
+#region   --Login GOOGLE-- 
+    [HttpGet]
+    [Route("dang-nhap-google")]
     public async Task LoginGoogle()
     {
         await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme, new AuthenticationProperties()
         {
-            RedirectUri = Url.Action("loginResponse", "Home")
+            RedirectUri = Url.Action("User", "Home")
         });
-    }            
+    }
+    [HttpGet]
+    [Route("dang-nhap-facebook")]
+    public async Task LoginFacebook()
+    {
+        await HttpContext.ChallengeAsync(FacebookDefaults.AuthenticationScheme, new AuthenticationProperties()
+        {
+            RedirectUri = Url.Action("User", "Home")
+        });
+    }
+    [HttpGet]
     [Authorize]
+    [Route("dang-xuat")]
     public IActionResult Logout()
     {
         HttpContext.SignOutAsync();
         return RedirectToAction("Index");
     }
-    #endregion
-    public IActionResult login(string AppName)
-    {
-        try { 
-        var pro = new AuthenticationProperties()
-        {
-            RedirectUri = Url.Action("Index", "Home")
-        };
-            if (AppName == "facebook")
-            {
-                return Challenge(pro, FacebookDefaults.AuthenticationScheme);
-            }
-            else
-            if (AppName == "google")
-            {
-                return Challenge(pro, GoogleDefaults.AuthenticationScheme);
-            }
-            else
-            {
-                return BadRequest(500);
-            }
-        }
-        catch (Exception ex)
-        {
-            return NotFound(ex);
-        }
-     }
+#endregion                                        
 
 }
 

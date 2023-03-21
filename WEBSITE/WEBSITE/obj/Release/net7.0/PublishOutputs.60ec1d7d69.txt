@@ -1,0 +1,14 @@
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\WEBSITE.exe
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\appsettings.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\WEBSITE.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\WEBSITE.deps.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\WEBSITE.runtimeconfig.json
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\WEBSITE.pdb
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\IdentityModel.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Facebook.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.Google.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+O:\Github\LeHoaiNhan\AspNetCoreAPI\WEBSITE\WEBSITE\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

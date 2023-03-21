@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - WEBSITE</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    @RenderSection("css", false)
     <style>
         body {
             max-width: 400px !important;
@@ -83,25 +85,24 @@
 </head>
 <body>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    @RenderBody()
-
+    @RenderBody()                
     <footer class="fixed-bottom footer">
         <div class="footer_menu">
             <div style="margin: auto;display: flex;">
                 <div class="icon_footer">
-                    <i class="fa fa-house fa-2x" onclick="footer_menu_click('home')"></i>
+                    <i class="fa fa-house fa-2x" onclick="footer_menu_click('trang-chu')"></i>
                 </div>
                 <div class="icon_footer">
-                    <i class="fa-solid fa-store fa-2x" onclick="footer_menu_click('store')"></i>
+                    <i class="fa-solid fa-store fa-2x" onclick="footer_menu_click('thong-tin-cua-hang')"></i>
                 </div>
                 <div class="icon_footer">
-                    <i class="fa-solid fa-clipboard-list fa-2x" onclick="footer_menu_click('clipboard')"></i>
+                    <i class="fa-solid fa-clipboard-list fa-2x" onclick="footer_menu_click('dat-lich')"></i>
                 </div>
                 <div class="icon_footer">
-                    <i class="fa-solid fa-location-dot fa-2x" onclick="footer_menu_click('location')"></i>
+                    <i class="fa-solid fa-location-dot fa-2x" onclick="footer_menu_click('vi-tri-cua-hang')"></i>
                 </div>
                 <div class="icon_footer">
-                    <i class="fa-solid fa-bars fa-2x" onclick="footer_menu_click('menu')"></i>
+                    <i class="fa-solid fa-bars fa-2x" onclick="footer_menu_click('danh-sach')"></i>
                 </div>
             </div>
         </div>
@@ -111,7 +112,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
           integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
-    @await RenderSectionAsync("Scripts", required: false)
+            @await RenderSectionAsync("Scripts", required: false)
+            <script>
+                    function footer_menu_click(input) {
+                        window.location = "/" + input;
+                    }
+            </script>
+
+    @RenderSection("js", false)
 </body>
 </html>
 

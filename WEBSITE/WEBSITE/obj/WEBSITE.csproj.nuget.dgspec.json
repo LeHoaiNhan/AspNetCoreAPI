@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj": {}
+    "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj": {}
   },
   "projects": {
-    "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj": {
+    "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj",
+        "projectUniqueName": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
         "projectName": "WEBSITE",
-        "projectPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/WEBSITE.csproj",
-        "packagesPath": "/Users/lehoainhan/.nuget/packages/",
-        "outputPath": "/Users/lehoainhan/Documents/GitHub/AspNetCoreAPI/WEBSITE/WEBSITE/obj/",
+        "projectPath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\WEBSITE.csproj",
+        "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
+        "outputPath": "O:\\Github\\LeHoaiNhan\\AspNetCoreAPI\\WEBSITE\\WEBSITE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lehoainhan/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
