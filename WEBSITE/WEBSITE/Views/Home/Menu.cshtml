@@ -1,6 +1,4 @@
-﻿@page
-@{
-}
+﻿  
 
 
 <div id="menu">
@@ -9,7 +7,14 @@
             <div style="display: flex;padding: 10px;" onclick="user_click()">
                 <div style="width: 50px;height: 50px;background-color: antiquewhite;border-radius: 2em;"></div>
                 <div style="width: 100%;height: 40px;margin-top: auto;margin-bottom: 0px;" class="container">
-                    <div style="width: 100%;height: 50%;"><b>Đăng nhập</b></div>
+                    @if (Context.User.Identity.IsAuthenticated)
+                    {
+                        <div style="width: 100%;height: 50%;"><b>@User.Identity.Name</b></div>        
+                    }                  
+                    else
+                    {         
+                        <div style="width: 100%;height: 50%;"><b>Đăng nhập</b></div>
+                    }
                     <div style="width: 100%;height: 50%;"><p>Xem trang cá nhân của bạn</p></div>
                 </div>
             </div>
@@ -111,6 +116,17 @@
                     <h2>Điều khoản & chính sách</h2>
                 </div>
             </div>
+            @if (Context.User.Identity.IsAuthenticated)
+            {
+            <div style="padding: 10px;border: 0.5px solid rgba(128, 128, 128, 0.329);border-radius: 8px;margin: 5px 0px;">
+                <div style="display: flex;border-radius: 5px;">
+                    <i class="fa-solid fa-book"></i>
+                        <h2>
+                            <a asp-controller="Home" asp-action="Logout">Đăng xuất</a>
+                        </h2>
+                </div>
+            </div>                                                                       
+            }
         </div>
     </div>
 </div>

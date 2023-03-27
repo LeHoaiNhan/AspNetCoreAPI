@@ -43,8 +43,8 @@ public class HomeController : Controller
     }
     [HttpGet]
     [Route("danh-sach")]
-    public ActionResult Menu()
-    {
+    public async Task<ActionResult> Menu()
+    {       
         return View();
     }
     [HttpGet]
@@ -88,7 +88,7 @@ public class HomeController : Controller
     public IActionResult Logout()
     {
         HttpContext.SignOutAsync();
-        return RedirectToAction("Index");
+        return RedirectToAction("Menu");
     }
 #endregion                                        
 
