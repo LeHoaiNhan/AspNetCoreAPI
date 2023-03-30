@@ -131,8 +131,12 @@
     </div>
 </div>
 
-                    <script>
+<script>
     function user_click(){
-        window.location="/nguoi-dung";
+        if ("@Context.User.Identity.IsAuthenticated" == "True") {
+            window.location = "/nguoi-dung";
+        } else {
+            window.location = "/dang-nhap";
+        }
     }
-                    </script>
+</script>

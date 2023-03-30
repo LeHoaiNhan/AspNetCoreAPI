@@ -47,22 +47,7 @@ public class HomeController : Controller
     {       
         return View();
     }
-    [HttpGet]
-    [Route("nguoi-dung")]
-    public async Task<IActionResult> User()
-    {
-        var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        if (result.Succeeded == true)
-        {
-            var claims = result.Principal.Identities.FirstOrDefault().Claims.Select(claim => new
-            {
-                claim.Issuer,
-                claim.Type,
-                claim.Value
-            });
-        }
-        return View();
-    }
+    
 #region   --Login GOOGLE-- 
     [HttpGet]
     [Route("dang-nhap-google")]
@@ -70,7 +55,7 @@ public class HomeController : Controller
     {
         await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme, new AuthenticationProperties()
         {
-            RedirectUri = Url.Action("User", "Home")
+            RedirectUri = Url.Action("login", "User")
         });
     }
     [HttpGet]
