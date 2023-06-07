@@ -4,9 +4,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WEBSITE.Controllers
-{                    
+{
+    [Route("/")]
+    [Route("[controller]")] 
     public class UserController : Controller
-    {
+    {                    
         [HttpGet]
         [Route("dang-nhap")]
         public async Task<IActionResult> login()
@@ -24,6 +26,7 @@ namespace WEBSITE.Controllers
             return View();
         }
         [HttpGet]
+        [Route("UserPosts")]
         [Route("nguoi-dung")]
         public async Task<IActionResult> UserPosts()
         {
@@ -39,6 +42,6 @@ namespace WEBSITE.Controllers
             }
             return View();
         }
-
+              
     }
 }

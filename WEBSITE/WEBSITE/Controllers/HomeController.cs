@@ -55,7 +55,7 @@ public class HomeController : Controller
     {
         await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme, new AuthenticationProperties()
         {
-            RedirectUri = Url.Action("login", "User")
+            RedirectUri = Url.Action("UserPosts", "User")
         });
     }
     [HttpGet]
@@ -64,7 +64,7 @@ public class HomeController : Controller
     {
         await HttpContext.ChallengeAsync(FacebookDefaults.AuthenticationScheme, new AuthenticationProperties()
         {
-            RedirectUri = Url.Action("User", "Home")
+            RedirectUri = Url.Action("UserPosts", "User")
         });
     }
     [HttpGet]
